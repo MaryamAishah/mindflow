@@ -292,3 +292,19 @@ footer p {
     padding: 15px 12px;
   }
 }
+
+.feature {
+  cursor: pointer;
+}
+
+.feature.selected {
+  background-color: #ffe2dc;
+  border-color: #ff4b35;
+  transform: translateY(-5px);
+}
+
+@media (hover: hover) {
+  .feature:hover {
+    transform: translateY(-5px);
+  }
+}
